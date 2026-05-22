@@ -5,7 +5,11 @@ function Home() {
     <>
       <style>
         {`
-          @import url('https://googleapis.com');
+          @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap');
+
+          html {
+            scroll-behavior: smooth;
+          }
 
           @keyframes slideIn {
             0% {
@@ -77,16 +81,16 @@ function Home() {
           </h2>
 
           <div style={styles.navLinks}>
-            <a href="#" style={styles.link}>Home</a>
-            <a href="#" style={styles.link}>Features</a>
-            <a href="#" style={styles.link}>AI Tools</a>
-            <a href="#" style={styles.link}>About</a>
+            <a href="#home" style={styles.link}>Home</a>
+            <a href="#features" style={styles.link}>Features</a>
+            <a href="#aitools" style={styles.link}>AI Tools</a>
+            <a href="#about" style={styles.link}>About</a>
           </div>
 
         </nav>
 
-        {/* Main Content */}
-        <div style={styles.content}>
+        {/* Home Section */}
+        <div id="home" style={styles.content}>
 
           <div style={styles.iconBox}>
             🧪 ⚡
@@ -102,8 +106,8 @@ function Home() {
             AI POWERED ECE SMART LAB PLATFORM
           </p>
 
-          {/* Cards */}
-          <div style={styles.cardContainer}>
+          {/* AI Tools */}
+          <div id="aitools" style={styles.cardContainer}>
 
             {/* Explainer Card */}
             <div
@@ -215,6 +219,37 @@ function Home() {
 
           </div>
 
+          {/* Features Section */}
+          <div id="features" style={styles.section}>
+
+            <h2 style={styles.sectionTitle}>
+              Features
+            </h2>
+
+            <p style={styles.sectionText}>
+              Synk-F provides AI-powered ECE learning tools including
+              smart topic explanation, viva preparation,
+              instant report generation and lab safety guidance.
+            </p>
+
+          </div>
+
+          {/* About Section */}
+          <div id="about" style={styles.section}>
+
+            <h2 style={styles.sectionTitle}>
+              About
+            </h2>
+
+            <p style={styles.sectionText}>
+              Synk-F is an AI-powered smart laboratory assistant platform
+              developed for Electronics and Communication Engineering students.
+              It helps simplify lab activities using modern AI technologies
+              and futuristic user experience design.
+            </p>
+
+          </div>
+
           {/* Footer */}
           <footer style={styles.footer}>
             <p>Powered by Synk-F AI</p>
@@ -238,7 +273,7 @@ const styles = {
     alignItems: "center",
     color: "white",
     fontFamily: "'Orbitron', sans-serif",
-    overflow: "hidden",
+    overflowX: "hidden",
   },
 
   content: {
@@ -289,14 +324,17 @@ const styles = {
   },
 
   navbar: {
-    position: "absolute",
-    top: "20px",
+    position: "fixed",
+    top: "0",
     left: "0",
     width: "100%",
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    padding: "0 40px",
+    padding: "20px 40px",
+    background: "rgba(0,0,0,0.8)",
+    backdropFilter: "blur(10px)",
+    zIndex: "1000",
     boxSizing: "border-box",
   },
 
@@ -318,14 +356,37 @@ const styles = {
     color: "white",
     textDecoration: "none",
     fontSize: "16px",
+    transition: "0.3s ease",
+  },
+
+  section: {
+    marginTop: "120px",
+    padding: "20px",
+  },
+
+  sectionTitle: {
+    fontSize: "38px",
+    marginBottom: "20px",
+    background: "linear-gradient(90deg, #3b82f6, #8b5cf6)",
+    WebkitBackgroundClip: "text",
+    WebkitTextFillColor: "transparent",
+  },
+
+  sectionText: {
+    color: "#9ca3af",
+    maxWidth: "800px",
+    margin: "auto",
+    lineHeight: "1.8",
+    fontSize: "16px",
   },
 
   footer: {
-    marginTop: "60px",
+    marginTop: "80px",
     textAlign: "center",
     color: "#6b7280",
     fontSize: "14px",
     lineHeight: "1.8",
+    paddingBottom: "40px",
   },
 };
 
