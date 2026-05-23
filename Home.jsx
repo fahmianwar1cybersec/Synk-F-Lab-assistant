@@ -51,6 +51,7 @@ function Home() {
 </div>
 
 {/* Centered Icons */}
+
 <div style={styles.iconBox}>
   🧪 ⚡
 </div>
