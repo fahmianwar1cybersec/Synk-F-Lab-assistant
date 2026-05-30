@@ -4,7 +4,7 @@ PROBLEM STATEMENT:-Lack of Real-time Assistance:
 Tedious Manual Reporting: Structuring lab observations and converting raw measurements into technical reports takes up valuable lab hours.
 Safety & Pre-Viva Anxiety: Students lack immediate access to component-specific safety precautions and interactive viva practice before evaluation.
 
-The Solution: Synk-F
+THE SOLUTION: Synk-F
 Synk-F is an AI-powered ECE Lab Companion engineered on ultra-low latency Groq AI infrastructure to act as a 24/7 digital lab assistant. 
 It delivers 4 core modules:-
 AI Topic Explainer: Instantly breaks down intricate electronic concepts and formulas mid-experiment.
