@@ -11,6 +11,10 @@ THE SOLUTION: Synk-F
 
 Synk-F is an AI-powered ECE Lab Companion engineered on ultra-low latency Groq AI infrastructure to act as a 24/7 digital lab assistant. 
 
+NOTE:-
+
+   Our focus was not building a generic chatbot. We built a domain-specific AI assistant for ECE laboratories that transforms LLM capabilities into practical educational workflows such as concept explanation, viva preparation, report generation and safety guidance.
+
 It delivers 4 core modules:-
 
 AI TOPIC EXPLAINER: Instantly breaks down intricate electronic concepts and formulas mid-experiment.
