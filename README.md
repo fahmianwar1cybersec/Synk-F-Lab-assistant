@@ -1,3 +1,20 @@
+
+PROBLEM STATEMENT:-Lack of Real-time Assistance:
+ In ECE hardware labs, students often wait for faculty to clarify complex theoretical concepts during hands-on experiments.
+Tedious Manual Reporting: Structuring lab observations and converting raw measurements into technical reports takes up valuable lab hours.
+Safety & Pre-Viva Anxiety: Students lack immediate access to component-specific safety precautions and interactive viva practice before evaluation.
+
+The Solution: Synk-F
+Synk-F is an AI-powered ECE Lab Companion engineered on ultra-low latency Groq AI infrastructure to act as a 24/7 digital lab assistant. 
+It delivers 4 core modules:-
+AI Topic Explainer: Instantly breaks down intricate electronic concepts and formulas mid-experiment.
+Report Generator: Accelerates documentation by converting lab inputs into structured technical summaries.
+Viva Generator: Dynamically creates targeted viva questions to test a student's readiness before the final check.
+Safety Advisor: Provides instant, context-aware safety instructions and component precaution lists.
+
+*IT DOESN'T HELP STUDENTS TO COMPLETE PROJECTS BLINDLY, INSTEAD IT REDEFINES HOW STUDENTS,THINK,LEARN AND IMPLEMENT*
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
